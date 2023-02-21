@@ -599,5 +599,8 @@ int main(void) {
     printf("\n");
     main_simulacion((CELDA *)main_mat);
 
+    printf("Testing\n");
+    printf("Hola\n");
+
     return 0;
 }
