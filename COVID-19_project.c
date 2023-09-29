@@ -97,7 +97,6 @@ void clrscr() {
  */
 //████████████████████████████████████████████████████████
 void inicializar_posiciones(CELDA *mat) {
-
     /*
      * Primero recorremos toda la matriz inicializando la matriz en un estado de -1,
      * al igual que de una vez establecimos su estado de salud y su estatus de dias enfermo.
