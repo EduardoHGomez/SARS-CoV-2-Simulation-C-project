@@ -262,7 +262,7 @@ e - Si la persona está enferma y usa cubrebocas
 void imprimir_matriz(CELDA *mat) {
     clrscr();
     printf("\n");
-    printf("\n\t\t\t_________________________________________________________"
+    printf("\n\t\t\t______________________________________________________________"
            "_\n");
     for (int i = 0; i < 30; i++) {
         printf("\t\t\t|");
