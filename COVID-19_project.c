@@ -551,7 +551,7 @@ void main_simulacion(CELDA *mat) {
         imprimir_matriz((CELDA *)mat);
 
         printf("\t\t\tTotal amount of days: %d\n", dias_pasados);
-        printf(RED "\t\t\tPersonas enfermas: %d" RESET "\n", enfermos);
+        printf(RED "\t\t\tPeople currently sick: %d" RESET "\n", enfermos);
         printf(GRN "\t\t\tCurrently healthy people: %d" RESET "\n", sanas);
         printf(YEL "\t\t\tPersonas recuperadas: %d" RESET "\n", recuperadas);
         //Se regresa el conteo de cada persona para el siguiente día (ciclo)
